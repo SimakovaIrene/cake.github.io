@@ -1,0 +1,389 @@
+.bg {
+  background-image: url(img/stripes.jpg);
+}
+
+.header {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/header/curve1.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 12.5%;
+}
+
+.menu {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 5px 5px 5px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #561e10;
+}
+
+.menu__item a {
+  color: #561e10;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+.menu__item a:hover {
+  text-decoration: underline;
+}
+
+/*----SECOND----*/
+
+
+
+.intro {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.link {
+  font-family: 'Lobster', cursive;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.link__item {
+  font-size: 26px;
+  font-weight: 400;
+  color: #94674e;
+  padding-left: 35px;
+  transition: .2s linear;
+}
+
+.link__item:hover {
+  color: #e20711;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  background-size: cover;
+  background-image: url(img/second/bg-menu.png);
+}
+
+/*----banner----*/
+
+.banner {
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.banner__img {
+  margin: 0 auto;
+  position: relative;
+}
+
+.arrowleft {
+  float: left;
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  z-index: 1;
+}
+
+.arrowright {
+  float: right;
+  position: absolute;
+  top: 70%;
+  right: 2%;
+  z-index: 1;
+}
+
+.beyond {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  z-index: 1;
+  display: block;
+  width: 438px;
+  height: 228px;
+  background-color: rgba(199, 183, 160, 0.85);
+}
+
+.beyond__text {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.beyond h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  font-size: 43px;
+  font-weight: 400;
+  color: #c9030c;
+}
+
+.beyond p {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #464545;
+}
+
+.beyond a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #94614d;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  float: right;
+  margin-right: 50px;
+  transition: .2s linear;
+}
+
+.btn:hover {
+  background-color: #c9030c;
+  ;
+  color: #100f0f;
+  font-weight: 700;
+}
+
+.curve {
+  background-image: url(img/header/curve2.png);
+  background-size: cover;
+  width: 100%;
+  height: 59px;
+  padding-top: 5px;
+}
+
+.curve h3 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  font-weight: 400;
+  color: #ed1d38;
+}
+
+/*----------OFFERS--------*/
+
+.offers {
+  background-color: #7f4731;
+}
+
+.items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.item {
+  background-color: #EED1A4;
+  width: 30%;
+  border: inherit;
+  border-radius: 3px;
+  box-shadow: inset 2px -7px 11px rgba(135, 115, 89, 0.9);
+}
+
+.title {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.title h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  font-weight: 400;
+  color: #f6dbac;
+  margin-top: 0;
+  padding-top: 20px
+}
+
+.title img {
+  width: 50px;
+  height: 63px;
+}
+
+.ribbon {
+  position: absolute;
+  margin-top: 20px;
+  width: 26%;
+}
+
+.ribbon__first {
+  left: 11.3%;
+}
+
+.ribbon__second {
+  left: 37.2%;
+}
+
+.ribbon__third {
+  right: 11%;
+}
+
+.text {
+  padding: 0 10px 0px 10px;
+}
+
+.text p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #643827;
+}
+
+.text h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #049b99;
+}
+
+/*-------FOOTER------*/
+
+footer {
+  background-color: #ffcdcd;
+}
+
+.under {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.mark p {
+  font-family: 'Lobster', cursive;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4c2718;
+}
+
+.link__footer {
+  font-size: 16px;
+  font-family: 'Lobster', cursive;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.link__footer a {
+  text-decoration: none;
+  color: #633827;
+}
+
+.item__footer {
+  margin-left: 15px;
+  transition: .2s linear;
+}
+
+.item__footer:hover {
+  text-decoration: underline;
+}
+
+/*-----------MEDIA----------*/
+
+@media (max-width: 1200px) {
+  .link__item {
+    font-size: 20px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .banner img {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .arrowleft {
+    left: 6%;
+  }
+  .arrowright {
+    right: 6%;
+  }
+}
+
+@media (max-width: 960px) {}
+
+@media (max-width: 725px) {
+  .banner__img {
+    margin: 0 auto;
+  }
+  .beyond {
+    position: static;
+  }
+}
+
+	
